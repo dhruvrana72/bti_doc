@@ -1,7 +1,6 @@
-Welcome to Bank Transaction Insights documentation!
-===================================
+# Welcome to Bank Transaction Insights documentation!
 
-# About EXL Transaction Insights
+## About EXL Transaction Insights
 
 **EXL Transaction Insights** is an advanced AI-driven analytics platform that converts raw, unstructured bank transaction data into intelligent, actionable insights. Built for financial institutions, fintechs, and lenders, it delivers a comprehensive understanding of customers’ financial behaviours, enabling more accurate risk decisions, deeper relationship management, and sharper product design. 
 
@@ -32,10 +31,18 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
+## 📚 Contents
 
-.. toctree::
+```{toctree}
+:maxdepth: 2
+:caption: Documentation
 
-   usage
-   api
+introduction
+getting-started
+input-data-options
+output-details
+support
+data-compliance
+next-steps
+faq
+

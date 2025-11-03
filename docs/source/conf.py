@@ -2,11 +2,11 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'EXL Transaction Insights'
+copyright = '2025, EXL Service Holdings'
+author = 'EXL Service Holdings'
 
-release = '0.1'
+release = '1.0-beta'
 version = '0.1.0'
 
 # -- General configuration
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser', 
 ]
 
 intersphinx_mapping = {
@@ -33,3 +34,10 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+master_doc = 'index'
