@@ -27,6 +27,8 @@ By combining EXL's banking expertise with advanced AI and NLP models trained on 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
+---
+
 ## 📚 Contents
 
 ```{toctree}
@@ -41,4 +43,3 @@ support
 data-compliance
 next-steps
 faq
-```
