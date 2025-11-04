@@ -1,0 +1,23 @@
+{
+    "Transaction level":
+    [
+        {
+            "Transaction_ID": 1,
+            "Customer_ID": "C1",
+            "Account_ID": "A1C1",
+            "TransactionType": "CREDIT",
+            "Description": "REMOTE ONLINE DEPOSIT 1",
+            "Txnamount": 300.0,
+            "Txndate": "2024-09-09"
+        }
+    ],
+    "Account level":
+    [
+        {
+            "Customer_ID": "C1",
+            "Account_ID": "A1C1",
+            "Balance_date": "2024-09-09",
+            "Balance": 100
+        }
+    ]
+}

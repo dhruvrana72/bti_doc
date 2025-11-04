@@ -1,0 +1,130 @@
+{
+    "client_id": "client1",
+    "application_id": "test_customer",
+    "source": "finicity_voaHistory",
+    "data": {
+        "results": {
+            "assets": {
+                "availableBalance": 0,
+                "beginningBalance": 1.54,
+                "currentBalance": 0.38,
+                "sixMonthAverage": 0.38,
+                "twoMonthAverage": 0.38
+            },
+            "consolidatedAvailableBalance": 0,
+            "constraints": {
+                "fromDate": 1631149917,
+                "incomeStreamConfidenceMinimum": 0
+            },
+            "consumerId": "b4be528f2bf9e9235a110ac11e5bd718",
+            "consumerSsn": "5620",
+            "createdDate": 1694221917,
+            "customerId": 7003268580,
+            "customerType": "active",
+            "days": 730,
+            "endDate": 1694221917,
+            "gseEnabled": true,
+            "id": "44q3geiuzs4x",
+            "institutions": [
+                {
+                    "accounts": [
+                        {
+                            "aggregationStatusCode": 0,
+                            "asset": {
+                                "beginningBalance": 1.54,
+                                "currentBalance": 0.38,
+                                "sixMonthAverage": 0.38,
+                                "twoMonthAverage": 0.38,
+                                "type": "checking"
+                            },
+                            "averageMonthlyBalance": 34.61,
+                            "balance": 0.38,
+                            "balanceDate": 1694221923,
+                            "currency": "USD",
+                            "id": 7005519860,
+                            "incomeStreams": [
+                                {
+                                    "averageMonthlyIncomeNet": 0,
+                                    "cadence": {
+                                        "days": 3,
+                                        "startDate": 1633348800,
+                                        "stopDate": 1641297600
+                                    },
+                                    "confidence": 100,
+                                    "estimateInclusion": "HIGH",
+                                    "estimatedGrossAnnual": 0,
+                                    "id": "44q3geiuzs4x1",
+                                    "incomeStreamMonths": 4,
+                                    "name": "payment facilitator",
+                                    "netAnnual": 0,
+                                    "netMonthly": [
+                                        {
+                                            "month": 1633068000,
+                                            "net": 3880.87
+                                        },
+                                        {
+                                            "month": 1635746400,
+                                            "net": 2782.63
+                                        },
+                                        {
+                                            "month": 1638342000,
+                                            "net": 788
+                                        },
+                                        {
+                                            "month": 1641020400,
+                                            "net": 1231.25
+                                        }
+                                    ],
+                                    "projectedGrossAnnual": 0,
+                                    "projectedNetAnnual": 0,
+                                    "status": "INACTIVE",
+                                    "transactions": [
+                                        {
+                                            "amount": 246.25,
+                                            "category": "Cash & ATM",
+                                            "description": "Cash app*cash out      visa direct  caus",
+                                            "id": 8713282580,
+                                            "institutionTransactionId": "7630207385",
+                                            "normalizedPayee": "Caus",
+                                            "postedDate": 1694135517
+                                        }
+                                    ]
+                                }
+                            ],
+                            "name": "Chime Spending",
+                            "number": "8317",
+                            "oldestTransactionDate": 1633348800,
+                            "ownerAddress": "2850 CLAFLIN AVE   APT 604 BRONX  NY 10468",
+                            "ownerName": "JOSE LOPEZ",
+                            "totNumberDaysSinceMostRecentInsufficientFundsFeeDebitTxAccount": 0,
+                            "totNumberInsufficientFundsFeeDebitTxAccount": 0,
+                            "transactions": [
+                                {
+                                    "amount": -5,
+                                    "category": "Paycheck",
+                                    "description": "Direct Debit: Coinbase Inc., 8889087930, Adrpltd5",
+                                    "id": 8713282574,
+                                    "institutionTransactionId": "4506418280",
+                                    "normalizedPayee": "Coinbase",
+                                    "postedDate": 1694135517
+                                }
+                            ],
+                            "type": "checking"
+                        }
+                    ],
+                    "id": 102186,
+                    "name": "Chime",
+                    "urlHomeApp": "https://www.website.com"
+                }
+            ],
+            "portfolioId": "gavijwj9n4n7-1-port",
+            "requestId": "FIN600660",
+            "requesterName": "ABC Bank",
+            "seasoned": true,
+            "startDate": 1631149917,
+            "status": "success",
+            "title": "Mastercard Open Banking Verification of Assets and Income - Transactions",
+            "type": "voaHistory"
+        }
+    }
+}
