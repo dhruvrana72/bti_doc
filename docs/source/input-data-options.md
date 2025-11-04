@@ -178,7 +178,7 @@ You can access the complete documentation [here](https://belhc7lbhe.apidog.io/bt
 Generate your API key under My Profile → API Keys, then include it in your request headers:
 Authorization: Bearer <your_api_key>
 Sample cURL Command
-curl -X POST https://api.yourdomain.com/uploadData \
+```curl -X POST https://api.yourdomain.com/uploadData \
   -H "Authorization: Bearer <your_api_key>" \
   -F "file=@sample.csv"
-
+```
