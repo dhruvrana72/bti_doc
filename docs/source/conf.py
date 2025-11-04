@@ -47,3 +47,11 @@ autodoc_mock_imports = ["lumache"]
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'generated/*']
 
 autosummary_generate = False
+
+html_theme_options = {
+    'collapse_navigation': False,
+    'navigation_depth': 4,
+    'titles_only': False,
+    'sticky_navigation': True,
+    'includehidden': True,
+}
