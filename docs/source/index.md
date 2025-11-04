@@ -16,16 +16,12 @@ The solution provides a unified 360Â° view of a customer's financial footprint â
 
 - **Credit and Risk Underwriting**: Assess repayment capacity, inflow stability, and exposure.
 - **Portfolio Monitoring**: Detect early warning signals and behavioural risk patterns.
-- Product and Marketing Strategy: Identify cross-sell opportunities and customer segments.
-- Customer Experience Design: Personalize engagement using data-driven insights.
-- Fraud Detection and Collections: Detect fraud and enhance recovery through risk prediction and prioritization.
+- **Product and Marketing Strategy**: Identify cross-sell opportunities and customer segments.
+- **Customer Experience Design**: Personalize engagement using data-driven insights.
+- **Fraud Detection and Collections**: Detect fraud and enhance recovery through risk prediction and prioritization.
 
 
 By combining EXL's banking expertise with advanced AI and NLP models trained on 15M+ records, Transaction Insights bridges the gap between **data availability and decision intelligence**.
-
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 ---
 
