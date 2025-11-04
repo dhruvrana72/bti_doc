@@ -39,5 +39,3 @@ support
 data-compliance
 next-steps
 faq
-usage
-api
