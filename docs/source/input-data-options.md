@@ -55,3 +55,13 @@ Ideal for users with structured financial or transactional data.
 | Balance_date | Date on which Account Balance is reported | &#9745; |
 
 Note: AsofDate is optional, in case it is not provided, today will be considered as AsofDate
+
+
+## Steps to Upload
+
+1.	Navigate to Data Upload → CSV/JSON Upload.
+2.	Choose your file, click Validate, then Submit.
+3.	Processing typically completes within 1–2 minutes.
+
+Tip: Download a sample CSV file [Account_level.csv](sample_files/Account_level.csv) and [Transaction_level.csv](sample_files/Transaction_level.csv) for reference.
+
