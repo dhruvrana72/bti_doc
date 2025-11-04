@@ -43,3 +43,7 @@ source_suffix = {
 master_doc = 'index'
 
 autodoc_mock_imports = ["lumache"]
+
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'generated/*']
+
+autosummary_generate = False
