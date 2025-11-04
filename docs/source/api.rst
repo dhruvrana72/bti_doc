@@ -1,8 +1,7 @@
-API Reference
-=============
+API
+===
 
 .. autosummary::
    :toctree: generated
-   :recursive:
 
-   transaction_insights
+   lumache
