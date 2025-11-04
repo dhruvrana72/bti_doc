@@ -156,3 +156,33 @@ Security & Compliance
 - Only read-access is used — we cannot move or modify money.
 - You can revoke access at any time from your Plaid dashboard.
 
+## API Integration
+For enterprise or developer users looking to integrate the platform programmatically.
+
+### API Documentation
+
+Available under API Access → Docs.
+
+### Key Endpoints
+
+| Method | Endpoint | Description | Formats Supported | 
+| :------- | :------: | :------: | :------: |
+| POST | /processData | Process data (JSON/CSV) | BTI, Plaid Asset Report and Finicity VOA Report |
+| GET | /getScore | Retrieve the generated score | Get the risk score for the customer |
+| GET | /getReport | Fetch detailed analytics report | Get all the metrics for the customer |
+
+You can access the complete documentation [here](https://belhc7lbhe.apidog.io/bti-api-2886719f0) for more information.
+
+### Authentication
+
+Generate your API key under My Profile → API Keys, then include it in your request headers:
+Authorization: Bearer ```
+<your_api_key>
+```
+
+Sample cURL Command
+```
+curl -X POST https://api.yourdomain.com/uploadData \
+  -H "Authorization: Bearer <your_api_key>" \
+  -F "file=@sample.csv"
+```
