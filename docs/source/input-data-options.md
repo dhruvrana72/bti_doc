@@ -69,7 +69,10 @@ Tip: Download a sample CSV file [Account_level.csv](sample_files/Account_level.c
 
 Ideal for users with structured financial or transactional data.
 
-### Expected Schema 1 - [Download here](sample_files/Input_Format_1.json)
+### Expected Schema 1
+
+[Download here](sample_files/Input_Format_1.json)
+
 ```
 {
     "Transaction level":
@@ -88,7 +91,9 @@ Ideal for users with structured financial or transactional data.
 }
 ```
 
-### Expected Schema 2 - [Download here](sample_files/Input_Format_2.json)
+### Expected Schema 2
+
+[Download here](sample_files/Input_Format_2.json)
 
 ```
 {
