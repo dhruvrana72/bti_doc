@@ -50,7 +50,7 @@ Recommended Resolution:
 
 If the issue persists or requires technical investigation, please reach out through any of the following channels available on the portal:
 - Support Form: Submit an issue ticket directly from the Help section.
-- Email Support: [mailto:support@exltransactioninsights.com](support@exltransactioninsights.com)
+- Email Support: [support@exltransactioninsights.com](mailto:support@exltransactioninsights.com)
 - Response Time: All trial-related queries are typically addressed within 24 business hours.
 
 The EXL support team ensures timely resolution and provides guidance to help you make the most of your trial experience.
