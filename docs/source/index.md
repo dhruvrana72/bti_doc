@@ -28,7 +28,7 @@ By combining EXL's banking expertise with advanced AI and NLP models trained on 
 ## 📚 Contents
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 3
 :caption: Documentation
 
 introduction
